@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM.WindowsFormsApp", "HRM.WindowsFormsApp\HRM.WindowsFormsApp.csproj", "{38F057A6-49EC-4008-9A8F-20CF9FCE9E98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM.AppServices", "HRM.AppServices\HRM.AppServices.csproj", "{D8A095D2-7DD0-4B39-A7A4-562FC00D6405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM.Core", "HRM.Core\HRM.Core.csproj", "{B6E4418F-D51D-4BA7-B5D5-B73846418140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM.Persistence", "HRM.Persistence\HRM.Persistence.csproj", "{79C29C53-53EA-4ADA-B918-BD89B9854445}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USP", "USP", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+	ProjectSection(SolutionItems) = preProject
+		USP\usp_FilterPeople.sql = USP\usp_FilterPeople.sql
+		USP\usp_GetDeps.sql = USP\usp_GetDeps.sql
+		USP\usp_GetPeople.sql = USP\usp_GetPeople.sql
+		USP\usp_GetPosts.sql = USP\usp_GetPosts.sql
+		USP\usp_GetStatisticPeople.sql = USP\usp_GetStatisticPeople.sql
+		USP\usp_GetStatuses.sql = USP\usp_GetStatuses.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F057A6-49EC-4008-9A8F-20CF9FCE9E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F057A6-49EC-4008-9A8F-20CF9FCE9E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F057A6-49EC-4008-9A8F-20CF9FCE9E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F057A6-49EC-4008-9A8F-20CF9FCE9E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A095D2-7DD0-4B39-A7A4-562FC00D6405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A095D2-7DD0-4B39-A7A4-562FC00D6405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A095D2-7DD0-4B39-A7A4-562FC00D6405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A095D2-7DD0-4B39-A7A4-562FC00D6405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E4418F-D51D-4BA7-B5D5-B73846418140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E4418F-D51D-4BA7-B5D5-B73846418140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E4418F-D51D-4BA7-B5D5-B73846418140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E4418F-D51D-4BA7-B5D5-B73846418140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C29C53-53EA-4ADA-B918-BD89B9854445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C29C53-53EA-4ADA-B918-BD89B9854445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C29C53-53EA-4ADA-B918-BD89B9854445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C29C53-53EA-4ADA-B918-BD89B9854445}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A658C02B-D8FC-4235-98F2-260A92E643AD}
+	EndGlobalSection
+EndGlobal
